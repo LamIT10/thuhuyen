@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: rgb(255, 41, 41);
+        padding: 30px;
+      }
+
+      .i img {
+        margin-top: 20px;
+        border-radius: 20px;
+        width: 100%;
+        box-shadow: 0 0 8px yellow;
+      }
+      .nho {
+        padding: 10px;
+        text-align: center;
+        background-color: greenyellow;
+        margin: 50px;
+        border-radius: 10px;
+      }
+      .choo {
+        display: flex;
+        justify-content: space-around;
+      }
+      #co {
+        background-color: yellow;
+        color: red;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 8px black;
+      }
+      #ko::before {
+        background-color: cornflowerblue;
+        color: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 8px black;
+        content: "Em không !!!";
+      }
+      #ko:focus::before {
+        content: "Em phải nhớ anh cơ :))";
+      }
+      #ko {
+        background-color: rgb(255, 41, 41);
+        border: none;
+      }
+      button a {
+        text-decoration: none;
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="i">
+        <img src="imgg/LDM_7109 (1).jpg" alt="" />
+      </div>
+      <div class="nho">Em có nhớ anh không?</div>
+      <div class="choo">
+        <button id="co"><a href="h.html">Em có nhớ anh</a></button>
+        <button id="ko"></button>
+      </div>
+    </div>
+  </body>
+</html>
